@@ -1,5 +1,5 @@
 # Foreman Role
 class role::foreman {
-  include profile::base
+  include role::base
   include profile::foreman
 }
