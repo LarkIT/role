@@ -7,5 +7,4 @@ class role::customer_transleaseinc_railsapp inherits role::base {
   include ::profile::database::client
   include ::profile::monit
   include ::profile::squid_client
-  include ::profile::letsencrypt
 }
