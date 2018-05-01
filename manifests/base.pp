@@ -8,8 +8,8 @@ class role::base {
   include ::profile::firewall
   include ::profile::auth
   include ::profile::ssh
-  include ::profile::duplicity
-  include ::profile::newrelic
+  #include ::profile::duplicity
+  #include ::profile::newrelic
   #include ::profile::monitoring::client
   #include ::profile::monitoring::sensu_client
 }
