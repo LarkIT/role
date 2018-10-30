@@ -10,7 +10,7 @@
 #
 #
 class role::sensu_server {
-  include ::role::base
+  include profile::base
 
   class { '::profile::monitoring::sensu_server': }
 
